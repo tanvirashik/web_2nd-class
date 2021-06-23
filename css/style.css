@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 15px;
+	border: 2px solid #F2F3F5;
+}
+.container{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	margin-top: 3px;
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	list-style-type: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 15px;
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 20px;
+	color: #0F2656;
+
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+.menu ul li a:last-child{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+
+}
+.container1{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.b_text{
+	text-align: center;
+	margin-top: 60px;
+}
+.b_text h1{
+	font-size: 50px;
+	padding: 0 80px;
+	color: #0A2152;
+}
+.b_text span{
+	color: #008AFF;
+}
+.b_text p{
+	font-size: 18px;
+	color: #0A2152;
+	padding: 0 30px;
+}
+.b_img{
+	width: 75%;
+	margin: 0 auto;
+
+}
+.b_img img{
+	width: 100%;
+}
+/*bannder end*/
+/*aside start*/
+.aside{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.left{
+	width: 50%;
+	float: left;
+	text-align: right;
+	margin-top: 10px;
+}
+.left h1{
+	font-size: 45px;
+	padding-right: 20px;
+	color: #e24b5b;
+}
+.left p{
+	font-size: 17px;
+	padding-right: 20px;
+	padding-left: 36px;
+	color: #0A2152;
+}
+.right{
+	width: 50%;
+	float: right;
+	padding: 0 0;
+}
+.right h2{
+	font-size: 50px;
+	margin-left: 10px;
+	color: #0A2152;
+}
+/*aside end*/
+/*service start*/
+.service{
+	padding: 55px 0;
+}
+.s_wrapper{
+
+}
+.red{
+	background-color: #FDEBED;
+}
+.green{
+	background-color: #EAF9F4;
+}
+.blue{
+	background-color: #FFF8E8;
+}
+.s_singel{
+	width: 27%;
+	padding: 50px 25px;
+	float: left;
+	margin-right: 38px;
+}
+.s_singel:last-child{
+	margin-right: 0;
+}
+.s_img{
+}
+.s_img img{
+	width: 100%;
+}
+.s_text{
+
+}
+.s_text h2{
+	padding: 5px 0;
+	font-size: 24px;
+	color: #0F2656;
+}
+.s_text p{
+	padding: 0 5px 0 0;
+	font-size: 17px;
+	color: #0f2656cc;
+}
+/*service end*/
+/*footer start*/
+.footer{
+	background-color: #008AFF;
+	padding: 25px 0;
+}
+.footer p{
+	text-align: center;
+	color: #C2C1FF;
+}
+.ledp{
+	color: #fff;
+	letter-spacing: 5px;
+}
+/*footer end*/
